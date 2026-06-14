@@ -1,0 +1,13 @@
+Collections:
+from collections import deque, counter, defaultdict, ordereddict, namedtuple
+
+
+Deque :  (append, appendleft, pop, popleft, extend, extendleft, rotate, len)
+
+counter :  (c[2], most_common_elements, subtract, +, -, &, ,)
+
+defaultdict : Never Raises Key Error, Creates default value
+
+ordereddict : in, move_to_end, popitem
+
+namedtuple : Tuples with named fields (immutable)
