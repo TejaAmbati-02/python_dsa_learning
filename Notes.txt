@@ -7,3 +7,33 @@ counter :  (c[2], most_common_elements, update(add elements to the counter), sub
 defaultdict : Never Raises Key Error, Creates default value -> Dict Will not give key error if key is not present
 ordereddict : in, move_to_end, popitem -> To maintain insertion order, Throw key error if not found
 namedtuple : Tuples with named fields (immutable) -> Immutable values but helps in readibility
+
+
+Priority Queue
+==============
+Used in Priority Queue
+K Largest / Smallest elements
+Merge K Sorted Lists
+Dijkstra's Algorith,maintaim
+
+Minheap
+maxheap -> Negate and push, after pop negate again
+
+Heap -> Give min/max element straight away -> O(1)
+
+Priority Queue -> DS that make sures 1st element is the Smallest one. -> Minheap
+
+
+Bisect - Binary Search :
+    Array must be Sorted
+    bisect_left
+    bisect_right, bisect
+    insert_right, insert
+    insert_left
+
+    When to use:
+        Binary Search
+        Maintain sorted List
+        Find insertion position
+        Range Queries
+
