@@ -7,10 +7,14 @@ Python DSA practice repo following the TUF+ (Take U Forward) curriculum. Solutio
 ```
 python_dsa/
 ├── python_basics/
-│   ├── basic_maths.py         # Math problems (digits, palindrome, primes, GCD/LCM, etc.)
-│   ├── basic_hashing.py       # Hashing problems (highest occurrence element, etc.)
+│   ├── 1_basic_maths.py       # Math problems (digits, palindrome, primes, GCD/LCM, etc.)
+│   ├── 2_basic_arrays.py      # Array problems (sum, odd count, sorted check, reverse)
+│   └── basic_hashing.py       # Hashing problems (highest occurrence element, etc.)
+├── Python/
 │   ├── builtinfunctions.py    # Python built-in function practice
+│   ├── builtinfunctions2.ipynb# Built-in functions notebook
 │   ├── python_libraries_1.py  # Standard library exploration
+│   ├── python_libraries_1.ipynb # Standard library notebook
 │   ├── python_libraries_2.py  # Standard library exploration (continued)
 │   └── basics.ipynb           # Notebook scratchpad for basics
 ├── collections/
@@ -25,7 +29,7 @@ python_dsa/
 
 ## Topics Covered
 
-### Basic Maths (`basic_maths.py`)
+### Basic Maths (`1_basic_maths.py`)
 - Count digits of a number (loop & log-based)
 - Count odd digits in a number
 - Reverse a number
@@ -37,6 +41,12 @@ python_dsa/
 - Prime number check (brute force & optimized)
 - Count of primes up to N (Sieve of Eratosthenes)
 - GCD and LCM of two numbers
+
+### Basic Arrays (`2_basic_arrays.py`)
+- Sum of array elements
+- Count odd numbers in an array
+- Check if array is sorted
+- Reverse an array (two-pointer)
 
 ### Hashing (`basic_hashing.py`)
 - Highest occurring element in an array

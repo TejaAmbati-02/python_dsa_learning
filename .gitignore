@@ -1,6 +1,4 @@
-.ipynb_checkpoints/
-.venv
-.env
-.DS_Store
-.vscode
 .idea
+.venv
+.mcp.json
+.DS_Store
